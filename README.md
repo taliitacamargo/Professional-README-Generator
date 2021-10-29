@@ -1,1 +1,1 @@
-{"name":"README GENERATOR","description":"generates readme files","installation":"npm i inquirer --save","usage":"saving text to readme","license":"MIT","contributions":"no","test":"using node","username":"taliitacamargo","email":"taliitacamargo@icloud.com"}
+{"name":"Readme","description":"generates readmes","installation":"npm i inquirer --save","usage":"saving data","license":"MIT","contributions":"no","test":"node","username":"taliitacamargo","email":"taliitacamargo@icloud.com"}
