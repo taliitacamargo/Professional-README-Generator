@@ -52,41 +52,37 @@ inquirer
         }
 
     ])
-
-
-      //   const content = (answers) => `
-      // #<${answers.name}>
-      
-      // #Description
-      
-      // ${answers.description}
-
-      // #Content
-
-      // ##Installation
-      // ${answers.installation}
-
-      // ##Usage
-      // ${answers.usage}
-
-      // ##License
-      // ${answers.license}
-
-      // #Contributors
-      // ${answers.contributions}
-
-      // ##Test
-      // ${answers.test}
-
-      // ##Questions
-      // ${answers.username}
-      // ${answers.email}
-      // `;
-
       .then((answers) => {
         console.log(answers);
+        const content = `
+      #<${answers.name}>
+      
+      #Description
+      
+      ${answers.description}
 
-      fs.writeFile("README.md",JSON.stringify(answers),  function(err) {
+      #Content
+
+      ##Installation
+      ${answers.installation}
+
+      ##Usage
+      ${answers.usage}
+
+      ##License
+      ${answers.license}
+
+      #Contributors
+      ${answers.contributions}
+
+      ##Test
+      ${answers.test}
+
+      ##Questions
+      ${answers.username}
+      ${answers.email}
+      `;
+      fs.writeFile("README.md",JSON.stringify(answers), content,  function(err) {
         if (err) 
           console.error(err);
         })
