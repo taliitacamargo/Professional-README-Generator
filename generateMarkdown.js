@@ -53,8 +53,9 @@ inquirer
 
     ])
       .then((response) => {
-        console.log(answers);
+        console.log(response);
         const content = `
+      
       #${response.name}
       
       #Description
