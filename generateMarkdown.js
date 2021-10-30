@@ -61,8 +61,6 @@ inquirer
       
       ${response.description}
 
-      #Content
-
       ##Installation
       ${response.installation}
 
