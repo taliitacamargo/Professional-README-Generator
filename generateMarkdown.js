@@ -52,37 +52,38 @@ inquirer
         }
 
     ])
-      .then((answers) => {
+      .then((response) => {
         console.log(answers);
         const content = `
-      #<${answers.name}>
+      #<${response.name}>
       
       #Description
       
-      ${answers.description}
+      ${response.description}
 
       #Content
 
       ##Installation
-      ${answers.installation}
+      ${response.installation}
 
       ##Usage
-      ${answers.usage}
+      ${response.usage}
 
       ##License
-      ${answers.license}
+      ${response.license}
 
       #Contributors
-      ${answers.contributions}
+      ${response.contributions}
 
       ##Test
-      ${answers.test}
+      ${response.test}
 
       ##Questions
-      ${answers.username}
-      ${answers.email}
+      ${response.username}
+      ${response.email}
       `;
-      fs.writeFile("README.md",JSON.stringify(answers), content,  function(err) {
+      
+      fs.writeFile("README.md", content, function(err) {
         if (err) 
           console.error(err);
         })

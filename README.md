@@ -1,1 +1,0 @@
-{"name":"Readme","description":"generates readmes","installation":"npm i inquirer --save","usage":"saving data","license":"MIT","contributions":"no","test":"node","username":"taliitacamargo","email":"taliitacamargo@icloud.com"}
