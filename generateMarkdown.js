@@ -55,7 +55,7 @@ inquirer
       .then((response) => {
         console.log(answers);
         const content = `
-      #<${response.name}>
+      #${response.name}
       
       #Description
       
