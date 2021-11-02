@@ -1,30 +1,30 @@
 
       
-  #dafaf
-  [![License: Apache](https://img.shields.io/badge/License-Apache-blue.svg)
+  #README GENERATOR
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
   #Description
   
-  fadsf
+  It generates README's with user's responses
 
   ##Installation
-  fdasf
+  npm i inquirer
 
   #Content
 
   ##Usage
-  fdasf
+  saving data from users into readme files 
 
   ##License
-  Apache
+  MIT
   
 
   ##Contributors
-  afdsf
+  none
 
   ##Test
-  fdsf
+  using node
 
   ##Questions
-  fdasf
-  fasdf
+  taliitacamargo
+  taliitacamargo@icloud.com
   
