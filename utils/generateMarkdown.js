@@ -37,7 +37,7 @@ function generateMarkdown(response) {
   [Test] ${response.test}
 
   [Questions]
-  [${response.username}] (https://github.com/${username})
+  [${response.username}] (https://github.com/${response.username})
   ${response.email}
   `;
 }

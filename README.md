@@ -1,30 +1,19 @@
 
-      
-  #README GENERATOR
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-  #Description
-  
-  It generates README's with user's responses
 
-  ##Installation
-  npm i inquirer
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+  #README GENERATOR
 
   #Content
 
-  ##Usage
-  saving data from users into readme files 
+  [Description] It generates README's with user's responses
+  [Installation] npm i inquirer
+  [Usage] saving data from users into readme files
+  [License] MIT
+  [Contributors] none
+  [Test] using noed
 
-  ##License
-  MIT
-  
-
-  ##Contributors
-  none
-
-  ##Test
-  using node
-
-  ##Questions
-  taliitacamargo
+  [Questions]
+  [taliitacamargo] (https://github.com/taliitacamargo)
   taliitacamargo@icloud.com
   
