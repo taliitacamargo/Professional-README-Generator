@@ -68,7 +68,7 @@ function generateMarkdown(response) {
   ${renderLicenseLink(response.license)}
 
   ## Contributions
-  ${response.contributors}
+  ${response.contributions}
 
   ## Tests
   ${response.test}
