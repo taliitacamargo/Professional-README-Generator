@@ -30,8 +30,28 @@ const questions = [
         type: "list",
         message: "Choose a license from the list of options.",
         name: "license",
-        choices: ["MIT", "Apache", "GPL 3.0" , "None"]
-        },
+        choices: [
+
+          {
+            name:"MIT", 
+            value: "MIT"
+          },
+          {
+            name:"Apache",
+            value: "Apache"
+          },
+          {
+            name: "GPL 3.0" ,
+            value: "GPL 3.0"
+          
+          },
+          {
+            name: "None",
+            value: "None"
+          }
+      ]
+    },
+      
         {
         type: "input",
         message: "Were there any contributions?",
