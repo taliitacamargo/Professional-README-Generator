@@ -1,49 +1,46 @@
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  #README Generator
+  # README Generator
 
 
-  ##Description 
+  ## Description 
   An application that generates README files contianing rresponses given by user
 
 
-  ##Content
-  [Description] (#description)
+  ## Content
+  [Description] (# description)
   <br>
-  [Installation] $(#installation)
+  [Installation] $(# installation)
   <br>
-  [Usage] (#usage)
+  [Usage] (# usage)
   <br>
-  [License] (license)
+  [License] (# license)
   <br>
-  [Contributors] (contributors)
+  [Contributors] (# contributors)
   <br>
-  [Test] (test)
-  [Questions] (questions)
+  [Test] (# test)
+  [Questions] (# questions)
 
 
-  ##Description 
+  ## Description 
   An application that generates README files contianing rresponses given by user
 
-  ##Installation
+  ## Installation
   npm i inquirer is used to install the application
   
-  ##Usage 
+  ## Usage 
   It can save data that is input by the user into a README file
 
-  ##License
+  ## License
   MIT
 
-  ##Contributions
+  ## Contributions
   undefined
 
-  ##Tests
+  ## Tests
   it is tested using Node
 
-
-  ##Questions
-  undefined
 
   GitHub
   [taliitacamargo] (https://github.com/taliitacamargo)
