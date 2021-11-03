@@ -34,23 +34,52 @@ function generateMarkdown(response) {
 
   #${response.name}
 
-  #Content
 
-  [Description] ${response.description}
-  <br>
-  [Installation] ${response.installation}
-  <br>
-  [Usage] ${response.usage}
-  <br>
-  [License] ${response.license}
-  <br>
-  [Contributors] ${response.contributions}
-  <br>
-  [Test] ${response.test}
+  ##Description 
+  ${response.description}
 
-  [Questions]
+
+  ##Content
+  [Description] (#description)
+  <br>
+  [Installation] $(#installation)
+  <br>
+  [Usage] (#usage)
+  <br>
+  [License] (license)
+  <br>
+  [Contributors] (contributors)
+  <br>
+  [Test] (test)
+  [Questions] (questions)
+
+
+  ##Description 
+  ${response.description}
+
+  ##Installation
+  ${response.installation}
+  
+  ##Usage 
+  ${response.usage}
+
+  ##License
+  ${response.license}
+
+  ##Contributions
+  ${response.contributors}
+
+  ##Tests
+  ${response.test}
+
+
+  ##Questions
+  ${response.questions}
+
+  GitHub
   [${response.username}] (https://github.com/${response.username})
   <br>
+  Email
   ${response.email}
   `;
 }
