@@ -32,49 +32,46 @@ function generateMarkdown(response) {
   return `
   ${renderLicenseBadge(response.license)}
 
-  #${response.name}
+  # ${response.name}
 
 
-  ##Description 
+  ## Description 
   ${response.description}
 
 
-  ##Content
-  [Description] (#description)
+  ## Content
+  [Description] (# description)
   <br>
-  [Installation] $(#installation)
+  [Installation] $(# installation)
   <br>
-  [Usage] (#usage)
+  [Usage] (# usage)
   <br>
-  [License] (license)
+  [License] (# license)
   <br>
-  [Contributors] (contributors)
+  [Contributors] (# contributors)
   <br>
-  [Test] (test)
-  [Questions] (questions)
+  [Test] (# test)
+  [Questions] (# questions)
 
 
-  ##Description 
+  ## Description 
   ${response.description}
 
-  ##Installation
+  ## Installation
   ${response.installation}
   
-  ##Usage 
+  ## Usage 
   ${response.usage}
 
-  ##License
+  ## License
   ${response.license}
 
-  ##Contributions
+  ## Contributions
   ${response.contributors}
 
-  ##Tests
+  ## Tests
   ${response.test}
 
-
-  ##Questions
-  ${response.questions}
 
   GitHub
   [${response.username}] (https://github.com/${response.username})
