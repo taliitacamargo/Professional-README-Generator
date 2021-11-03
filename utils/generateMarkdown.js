@@ -46,8 +46,6 @@ function generateMarkdown(response) {
 
   - [Test](#tests)
 
-  - [Questions](#questions)
-
   ## Installation
   ${response.installation}
   
