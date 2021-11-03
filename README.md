@@ -24,7 +24,7 @@
 
 
   ##Description 
-  An application that generates README files contianing rresponses given by user
+  An application that generates README files contianing responses given by user
 
   ##Installation
   npm i inquirer is used to install the application
@@ -40,10 +40,6 @@
 
   ##Tests
   it is tested using Node
-
-
-  ##Questions
-  undefined
 
   GitHub
   [taliitacamargo] (https://github.com/taliitacamargo)
