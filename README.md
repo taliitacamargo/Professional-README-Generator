@@ -21,8 +21,6 @@
 
   - [Test](#tests)
 
-  - [Questions](#questions)
-
   ## Installation
   npm i inquirer is used to install the application
   
@@ -39,9 +37,7 @@
   it is tested using Node
 
 
-  GitHub
-  [taliitacamargo] (https://github.com/taliitacamargo)
+  GitHub: [taliitacamargo](https://github.com/taliitacamargo)
   <br>
-  Email
-  taliitacamargo@icloud.com
+  Email: taliitacamargo@icloud.com
   
