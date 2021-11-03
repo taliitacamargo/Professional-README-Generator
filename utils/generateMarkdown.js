@@ -48,7 +48,7 @@ function generateMarkdown(response) {
   
   - [License] (#license)
  
-  - [Contributors] (#contributors)
+  - [Contributions] (#contributions)
 
   - [Test] (#test)
 

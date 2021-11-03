@@ -17,7 +17,7 @@
   
   - [License] (#license)
  
-  - [Contributors] (#contributors)
+  - [Contributions] (#contributions)
 
   - [Test] (#test)
 
@@ -37,7 +37,7 @@
   ![License: MIT] (https://img.shields.io/badge/License-MIT-blue.svg
 
   ## Contributions
-  undefined
+  none
 
   ## Tests
   it is tested using Node
