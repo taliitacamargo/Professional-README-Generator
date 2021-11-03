@@ -9,23 +9,19 @@
 
 
   ## Content
-  - [Description] (#-description)
+  - [Description](#description)
   
-  - [Installation] (#-installation)
+  - [Installation](#installation)
  
-  - [Usage] (#-usage)
+  - [Usage](#usage)
   
-  - [License] (#-license)
+  - [License](#license)
  
-  - [Contributions] (#-contributions)
+  - [Contributions](#contributions)
 
-  - [Test] (#-test)
+  - [Test](#tests)
 
-
-
-
-  ## Description 
-  An application that generates README files contianing responses given by user
+  - [Questions](#questions)
 
   ## Installation
   npm i inquirer is used to install the application
