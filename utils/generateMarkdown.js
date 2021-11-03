@@ -62,11 +62,9 @@ function generateMarkdown(response) {
   ${response.test}
 
 
-  GitHub
-  [${response.username}](https://github.com/${response.username})
+  GitHub: [${response.username}](https://github.com/${response.username})
   <br>
-  Email
-  ${response.email}
+  Email: ${response.email}
   `;
 }
 
