@@ -96,6 +96,7 @@ function generateMarkdown(response) {
 
   ## License
   ${renderLicenseLink(response.license)}
+  <br>
   ${renderLicenseSection(response.license)}
 
   ## Contributions
