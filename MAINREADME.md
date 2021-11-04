@@ -1,5 +1,10 @@
 # Professional README Generator 
 
+
+## Walkthrough Video 
+
+https://drive.google.com/file/d/1VEq0SxM597NgMnls6yHBvG6ZJoLbakdx/view?usp=sharing
+
 ## Acceptance Criteria
 
 I've created a README generator
